@@ -4371,8 +4371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0f2fb5b61a7344386c4c79985ffa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conteneurEnnemy: {fileID: 314486208}
-  ennemiesText: {fileID: 909423442}
+  conteneurEnemy: {fileID: 314486208}
+  enemyText: {fileID: 909423442}
 --- !u!1001 &829248546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4770,7 +4770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 44.599976, y: -4.5}
+  m_AnchoredPosition: {x: 44.600098, y: -4.5}
   m_SizeDelta: {x: 460.84, y: 69}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &909423442
@@ -5457,7 +5457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6470470209835675063, guid: a56b1226008b30644bcf65814b9bb2e6, type: 3}
   spell: {fileID: 4518138446923871257, guid: 8f60d3dd9e9193445b330e86087e272d, type: 3}
-  ennemi: {fileID: 0}
+  enemy: {fileID: 0}
   parent: {fileID: 234670887}
   limitL: {fileID: 1923840854}
   limitR: {fileID: 1899504735}

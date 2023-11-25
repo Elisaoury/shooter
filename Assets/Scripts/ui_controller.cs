@@ -5,12 +5,12 @@ using TMPro;
 
 public class ui_controller : MonoBehaviour
 {
-    public Transform conteneurEnnemy; 
-    public TextMeshProUGUI ennemiesText;
+    public Transform conteneurEnemy; 
+    public TextMeshProUGUI enemyText;
 
     private void Update()
     {
-        ennemiesText.text = "Ennemis restants : ";
-        ennemiesText.text += conteneurEnnemy.childCount.ToString();
+        enemyText.text = "Ennemis restants : ";
+        enemyText.text += conteneurEnemy.childCount.ToString();
     }
 }

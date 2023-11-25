@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ennemy_bonus : MonoBehaviour
+public class Enemy_bonus : MonoBehaviour
 {
     public GameObject bonus;
 
-    public void OnEnnemyDied ()
+    public void OnEnemyDied ()
     {
         Instantiate(bonus, transform.position, transform.rotation);
 

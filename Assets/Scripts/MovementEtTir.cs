@@ -6,7 +6,7 @@ public class MovementEtTir : MonoBehaviour
 {
     public GameObject bullet;
     public GameObject spell;
-    public GameObject ennemi;
+    public GameObject enemy;
     public Transform parent;
     public Transform limitL;
     public Transform limitR;

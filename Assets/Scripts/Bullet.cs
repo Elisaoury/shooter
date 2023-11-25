@@ -18,8 +18,8 @@ public class Bullet : MonoBehaviour
         if (other.CompareTag("Player")) return;
 
         life--;
-        var ennemyBonus = other.GetComponent<Ennemy_bonus>();
-        if (ennemyBonus != null) ennemyBonus.OnEnnemyDied();
+        var enemyBonus = other.GetComponent<Enemy_bonus>();
+        if (enemyBonus != null) enemyBonus.OnEnemyDied();
         Destroy(other.gameObject);
         if (life <= 0)
         {
